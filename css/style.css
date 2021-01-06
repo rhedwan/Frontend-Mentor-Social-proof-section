@@ -1,1 +1,104 @@
- 
+*{
+    font-size: 15px;
+    font-weight: 400, 500, 700;
+    /* font-family: spartan; */
+} 
+section{
+    background-color:hsl(0, 0%, 100%);
+    opacity: 0.8;
+    margin: 50px;
+  }
+.customer-image{
+    border-radius: 50%;
+    width:60px;
+    padding-top:5px ;
+}
+.rating-one, .rating-two, .rating-three{
+    background-color:rgba(238, 104, 164,0.5);
+    border-radius:10px;
+}
+/* Small devices (landscape phones) */
+@media (min-width:576px) {}
+/* Medium devices (tablets) */
+@media (min-width:768px) {}
+/* Large devices (desktops) */
+@media (min-width:992px) {}
+/* Extra large devices (large desktops) */
+@media (min-width:1200px) {
+    body{
+    background: url(./images/bg-pattern-top-desktop.svg) no-repeat,
+        url(./images/bg-pattern-bottom-desktop.svg) no-repeat;
+    }
+    .rating-one, .rating-two, .rating-three{
+    width: 90%;
+    background-color:rgba(238, 104, 164,0.5);
+    border-radius:10px;
+    }
+    .rating-two{
+    margin-left:40px;
+    }
+    .rating-three{
+    margin-left:80px;
+    }
+}
+@media (max-width:575px) {}
+/* Small devices (landscape phones)*/
+@media (max-width:767px) {
+    body{
+    background: url(./images/bg-pattern-top-mobile.svg) no-repeat,
+        url(./images/bg-pattern-bottom-mobile.svg) no-repeat;
+    }
+    .stars{
+    margin-left: 30px;
+    padding-right: 30px;
+    }
+    .rating{
+    text-align: center;
+    }
+    .buyer-1,.buyer-2{
+    margin-bottom: 20px;
+    }
+    .landing-text{
+    text-align: center;
+    }
+}
+/* Medium devices (tablets)*/
+@media (max-width:991px) {}
+/* Large devices (desktops)*/
+@media (max-width:1199px) {}
+    .buyer-1,.buyer-2,.buyer-3{
+    padding-left:15px;
+}
+.customer-image{
+    border-radius: 50%;
+    width:50px;
+}
+.text{
+    color:hsl(0, 100%, 90%);
+}
+.name{
+    color:hsl(0, 0%, 100%) ;
+    font-weight: bold;
+}
+.tag{
+    color: hsl(330, 100%, 45%);
+}
+@media (min-width:1200px) {
+    .buyers{
+        height:250px
+    }
+    .buyer-1{
+        height:190px;
+    }
+    .buyer-2{
+        height:190px
+    }
+    .buyer-3{
+        height:190px;
+    }
+}
+.buyer-1,.buyer-2,.buyer-3{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+    font-size: 20px;
+}
