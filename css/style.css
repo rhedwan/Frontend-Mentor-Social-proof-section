@@ -5,7 +5,7 @@
 } 
 section{
     background-color:hsl(0, 0%, 100%);
-    opacity: 0.5;
+    /* opacity: 0.5; */
     margin:40px;
   }
 .customer-image{
@@ -14,7 +14,7 @@ section{
     padding-top:5px ;
 }
 .rating-one, .rating-two, .rating-three{
-    background-color:rgba(238, 104, 164,0.5);
+    background-color:rgb(255, 230, 255);
     border-radius:10px;
 }
 /* Small devices (landscape phones) */
@@ -31,8 +31,6 @@ section{
     }
     .rating-one, .rating-two, .rating-three{
     width: 90%;
-    background-color:rgba(238, 104, 164,0.5);
-    border-radius:10px;
     }
     .rating-two{
     margin-left:40px;
@@ -69,10 +67,6 @@ section{
 .buyer-1,.buyer-2,.buyer-3{
     padding-left:15px;
     padding-bottom:8px;
-}
-.customer-image{
-    border-radius: 50%;
-    width:50px;
 }
 .text{
     color:hsl(0, 100%, 90%);
