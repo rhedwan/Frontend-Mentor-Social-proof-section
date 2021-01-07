@@ -1,12 +1,12 @@
 *{
     font-size: 15px;
     font-weight: 400, 500, 700;
-    /* font-family: spartan; */
+    font-family: spartan;
 } 
 section{
     background-color:hsl(0, 0%, 100%);
-    opacity: 0.8;
-    margin: 50px;
+    opacity: 0.5;
+    margin:40px;
   }
 .customer-image{
     border-radius: 50%;
@@ -65,9 +65,10 @@ section{
 /* Medium devices (tablets)*/
 @media (max-width:991px) {}
 /* Large devices (desktops)*/
-@media (max-width:1199px) {}
-    .buyer-1,.buyer-2,.buyer-3{
+@media (max-width:1199px){}
+.buyer-1,.buyer-2,.buyer-3{
     padding-left:15px;
+    padding-bottom:8px;
 }
 .customer-image{
     border-radius: 50%;
