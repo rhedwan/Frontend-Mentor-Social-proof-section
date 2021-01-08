@@ -3,6 +3,10 @@
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
 } 
+body{
+    background: url(../images/bg-pattern-top-mobile.svg)no-repeat left top , 
+    url(../images/bg-pattern-bottom-mobile.svg) bottom no-repeat;
+}
 section{
     margin:40px;
   }
@@ -16,12 +20,7 @@ section{
     border-radius:10px;
 }
 /* Small devices (landscape phones) */
-@media (min-width:576px) {
-    body{
-        background: url(./images/bg-pattern-top-mobile.svg) no-repeat left top,
-        url(./images/bg-pattern-bottom-mobile.svg) no-repeat bottom;
-    }
-}
+@media (min-width:576px) {}
 /* Medium devices (tablets) */
 @media (min-width:768px) {}
 /* Large devices (desktops) */
