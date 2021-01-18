@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 *{
-    font-size: 15px;
+    font-size:14px;
     font-family: 'Spartan', sans-serif;
 }
-section{
-    margin:40px;
-} 
 .customer-image{
     border-radius: 50%;
-    width:60px;
-    padding-top:5px ;
+    width:55px;
 }
 .rating-one, .rating-two, .rating-three{
     background-color:hsl(300, 24%, 96%);
@@ -20,7 +16,8 @@ section{
     padding-bottom:8px;
 }
 .text{
-    color:hsl(0, 0%, 90%);
+    color:hsl(300, 100%, 95%);
+    line-height:30px ;
 }
 .name{
     color:hsl(0, 0%, 100%) ;
@@ -34,6 +31,7 @@ section{
     border-radius: 15px;
     font-size: 20px;
     padding-right:10px;
+    
 }
 /* Small devices (landscape phones) */
 @media (min-width:576px) {}
@@ -41,19 +39,27 @@ section{
 @media (min-width:768px) {
     body{
         background: url(../images/bg-pattern-top-desktop.svg) no-repeat left top,
-            url(../images/bg-pattern-bottom-desktop.svg) no-repeat bottom; 
+            url(../images/bg-pattern-bottom-desktop.svg) no-repeat bottom;
+    }
+    .landing-text p{
+        font-size:100px;
+        letter-spacing: 0px;
+    }
+    .rating{
+        padding-top:30px;
     }
     .rating-one, .rating-two, .rating-three{
-        width: 95%;
+        width:88%;
     }
     .rating-two{
-        margin-left:40px;
+        margin-left:5%;
     }
     .rating-three{
-        margin-left:80px;
+        margin-left:11%;
     }
     .buyers{
-        height:250px
+        height:250px;
+        margin:40px;
     }
     .buyer-1{
         height:200px;
@@ -66,6 +72,9 @@ section{
         height:200px;
         margin-top: 20px;
     }
+    section{
+        margin:100px 100px 40px;
+    } 
 }
 /* Large devices (desktops) */
 @media (min-width:992px) {}
@@ -90,6 +99,12 @@ section{
     }
     .landing-text{
         text-align: center;
+    }
+    section{
+        margin:50px;
+    } 
+    .landing-text p{
+        font-size: 35px;
     }
 }
 /* Medium devices (tablets)*/
