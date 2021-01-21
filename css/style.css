@@ -17,7 +17,6 @@
 }
 .text{
     color:hsl(300, 100%, 95%);
-    line-height:30px ;
 }
 .name{
     color:hsl(0, 0%, 100%) ;
@@ -30,8 +29,7 @@
     background-color: hsl(300, 43%, 22%);
     border-radius: 15px;
     font-size: 20px;
-    padding-right:10px;
-    
+    padding-right:10px;  
 }
 /* Small devices (landscape phones) */
 @media (min-width:576px) {}
@@ -49,7 +47,7 @@
         padding-top:30px;
     }
     .rating-one, .rating-two, .rating-three{
-        width:88%;
+        width:89%;
     }
     .rating-two{
         margin-left:5%;
