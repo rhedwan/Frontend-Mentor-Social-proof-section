@@ -42,7 +42,7 @@
             url(../images/bg-pattern-bottom-desktop.svg) no-repeat bottom;
     }
     .landing-text p{
-        font-size:100px;
+        font-size:50px;
         letter-spacing: 0px;
     }
     .rating{
